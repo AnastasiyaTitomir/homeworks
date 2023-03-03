@@ -4,6 +4,8 @@
 Console.WriteLine("Введите пятизначное число: "); 
 int num = Convert.ToInt32(Console.ReadLine());
 
+int[] array = new int [4];
+
 if (num>9999 && num<100000)
 {
 string text = Convert.ToString(num);
