@@ -22,5 +22,3 @@ else
 {
     Console.WriteLine("Вы ввели не пятизначное число");
 } 
-
-//  Console.WriteLine("Не удалось распознать число");
