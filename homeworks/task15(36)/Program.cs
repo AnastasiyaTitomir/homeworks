@@ -17,7 +17,7 @@ return array;
 int Count (int [] NewArray)
 {
 int result = 0;
-for (int j = 2; j < NewArray.Length; j=j+2)
+for (int j = 1; j < NewArray.Length; j=j+2)
 {
     result = NewArray[j] + result;
 }
