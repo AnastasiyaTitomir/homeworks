@@ -12,9 +12,9 @@ Console.WriteLine (text);
 return Convert.ToInt32(Console.ReadLine());
 }
 
-double [,] CreateArray (int m, int n)
+double [,] CreateArray (int a, int b)
 {
-    double [,] array = new double [m,n];
+    double [,] array = new double [a,b];
     for (int i = 0; i < array.GetLength(0); i++)
     {
        for (int j = 0; j < array.GetLength(1); j++) 
